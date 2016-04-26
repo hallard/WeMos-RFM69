@@ -42,5 +42,5 @@ See news and other projects on my [blog][2]
  
 [1]: http://www.wemos.cc/wiki/doku.php?id=en:d1_mini
 [2]: https://hallard.me
-[3]: https://oshpark.com/shared_projects/FD4f9q2s
+[3]: https://oshpark.com/shared_projects/0RG7P8z4
 [4]: http://www.hoperf.com/rf_transceiver/modules/
