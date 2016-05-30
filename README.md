@@ -17,6 +17,8 @@ Boards heve been tested with RFM69HW and are working fine, no problem so far, ju
 This mean that RFM69W/RFM69HW is for RFM12B/RFM69CW and vice-versa, please check with module pinout before soldering.
 **This have been corrected on V1.0a release**
 
+**I didn't tested with RFM12/RFM69CW module.** If someone tested and have it working (or not), please let me know.
+
 Detailed Description
 ====================
 
