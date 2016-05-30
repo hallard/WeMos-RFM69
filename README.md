@@ -28,7 +28,8 @@ Look at the schematics for more informations.
 ![schematic](https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/WeMos-RFM69-sch.png)  
 
 
-1N4148 diode is for level voltage of WS2812B. Decreasing 1st led to 4.3V (see this [post][5]) but It should works out of the box without any problem, depending on WS2812 type. In this case JP4 need to be closed (default).
+Diode D1 (1N4148) is for level voltage of WS2812B. Decreasing 1st led to VCC to 4.3V (see this [post][5]) but It should works out of the box (so without D1 and JP4 closed) without any problem. 
+Depending on WS2812 type, if it does not work or flicker, open JP4 (cut wire) and put D1 in place.
 
 ### Boards  
 <img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/WeMos-RFM69-top.png" alt="Top" width="40%" height="40%">&nbsp;
