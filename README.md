@@ -15,7 +15,7 @@ I now use WeMos boards instead of NodeMCU's one because they're just smaller, fe
 
 Boards heve been tested with RFM69HW and are working fine, no problem so far, just a silk error on V1.0, RFM module indication is reversed.
 This mean that RFM69W/RFM69HW is for RFM12B/RFM69CW and vice-versa, please check with module pinout before soldering.
-**This have been corrected on V1.0a release**
+**This have been corrected on V1.0a+ release**
 
 **I didn't tested with RFM12/RFM69CW module.** If someone tested and have it working (or not), please let me know.
 
@@ -25,17 +25,17 @@ Detailed Description
 Look at the schematics for more informations.
 
 ### Schematic  
-![schematic](https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/WeMos-RFM69-sch.png)  
+![schematic](https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-sch.png)  
 
 
 Diode D1 (1N4148) is for level voltage of WS2812B. Decreasing 1st led to VCC to 4.3V (see this [post][5]) but It should works out of the box (so without D1 and JP4 closed) without any problem. 
 Depending on WS2812 type, if it does not work or flicker, open JP4 (cut wire) and put D1 in place.
 
 ### Boards  
-<img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/WeMos-RFM69-top.png" alt="Top" width="40%" height="40%">&nbsp;
-<img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/WeMos-RFM69-bot.png" alt="Bottom" width="40%" height="40%">&nbsp; 
+<img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-top.svg" alt="Top">&nbsp;
+<img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-bot.svg" alt="Bottom"> 
 
-You can order the PCB of this board at [OSHPARK][3]
+You can order the PCB of this board at [PBCs.io][3], if you do so, PCBs.io give me little discount that allow me to buy new boards.
 
 ### Assembled boards
 
@@ -50,7 +50,7 @@ See news and other projects on my [blog][2]
  
 [1]: http://www.wemos.cc/wiki/doku.php?id=en:d1_mini
 [2]: https://hallard.me
-[3]: https://oshpark.com/shared_projects/MJRY1QHg
+[3]: https://PCBs.io/share/8Vkkr 
 [4]: http://www.hoperf.com/rf_transceiver/modules/
 [5]: http://www.electrobob.com/ws2812-level-translator/
 
