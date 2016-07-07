@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -3041,7 +3041,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="R1" library="_c2h" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
 <part name="R2" library="_c2h" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
-<part name="I2C_OLED" library="_c2h" deviceset="CON_HEADER_1X04" device="'SMALL''" value="CON_HEADER_1X04'SMALL''"/>
+<part name="I2C_OLED" library="_c2h" deviceset="CON_HEADER_1X04" device="'LOCK'" value="CON_HEADER_1X04'LOCK'"/>
 <part name="NAME" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="" value="Value">
 <attribute name="CNAME" value="ESP8266 WeMos RFM69 Shield"/>
 <attribute name="CREVISION" value="1.0a"/>
@@ -3121,7 +3121,7 @@ JP4 is default closed </text>
 <attribute name="VALUE" x="52.832" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="I2C_OLED" gate="G$1" x="54.61" y="64.77" smashed="yes">
-<attribute name="NAME" x="53.594" y="61.976" size="1.778" layer="95"/>
+<attribute name="NAME" x="53.594" y="61.976" size="1.778" layer="91"/>
 </instance>
 <instance part="NAME" gate="G$1" x="5.08" y="5.08" smashed="yes">
 <attribute name="DRAWING_NAME" x="196.85" y="16.51" size="2.54" layer="94" font="vector"/>
