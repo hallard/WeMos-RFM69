@@ -32,8 +32,8 @@ Diode D1 (1N4148) is for level voltage of WS2812B. Decreasing 1st led to VCC to 
 Depending on WS2812 type, if it does not work or flicker, open JP4 (cut wire) and put D1 in place.
 
 ### Boards  
-<img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-top.svg" alt="Top">&nbsp;
-<img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-bot.svg" alt="Bottom"> 
+<img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-top.png" alt="Top">&nbsp;
+<img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-bot.png" alt="Bottom"> 
 
 You can order the PCB of this board at [PBCs.io][3], if you do so, PCBs.io give me little discount that allow me to buy new boards.
 
