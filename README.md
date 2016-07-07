@@ -35,11 +35,11 @@ Depending on WS2812 type, if it does not work or flicker, open JP4 (cut wire) an
 <img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-top.png" alt="Top">&nbsp;
 <img src="https://raw.githubusercontent.com/hallard/WeMos-RFM69/master/pictures/WeMos-RFM69-bot.png" alt="Bottom"> 
 
-You can order the PCB of this board at [PBCs.io][3], if you do so, PCBs.io give me little discount that allow me to buy new boards.
+You can order the PCB of this board at [PBCs.io][3], if you do so, PCBs.io give me little discount that allow me to buy some new created boards.
 
 ### Assembled boards
 
-I currently have the boards from OSHPARK but dit not tested them yet
+I currently have the boards from OSHPARK tested with success, I'm waiting for PCBs.io V1.0b boards
 
 ##License
 
